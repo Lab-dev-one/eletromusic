@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    <title>EletroMusic - Músicas Eletrônicas</title>
+</head>
+
+<body>
+
+    <header>
+        <!-- inicio Cabecalho -->
+        <nav class="navbar navbar-expand-sm navbar-light " style="background: #010103;">
+            <div class="container">
+
+                <a href="#" class="navbar-brand mt-3">
+                    <h1 style="color: #d527a4;">Eletro<span style="color:white;">Music</span></h1>
+                </a>
+
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+                <div class="collapse navbar-collapse" id="nav-principal">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mr-4">
+                            <a href="" class="menu">Home</a>
+                        </li>
+                        <li class="nav-item mr-4">
+                            <a href="playlist.php" class="menu">Playlists</a>
+                        </li>
+                        <li class="nav-item mr-4">
+                            <a href="historia.html" class="menu">História</a>
+                        </li>
+                        <li class="nav-item mr-4">
+                            <a href="evento.html" class="menu">Eventos</a>
+                        </li>
+                        <li class="nav-item mr-4">
+                            <a href="cadastro.html" class="menu">Inscrever-se</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="login.html" class="btn btn-outline-light ml-5">Entrar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--/fim Cabecalho -->
+
+    <section>
+        <!-- Início seção home -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex">
+                    <!-- Textos da seção -->
+                    <div class="align-self-center">
+                        <h1 class="display-4 text-white">Suas músicas, descomplicadas</h1>
+                        <p class="text-justify text-white">
+                            Usado por mais de 1 milhão de pessoas, o EletroMusic é uma ferramenta online que vai facilitar sua vida, pois aqui você encontra as melhores músicas.
+                        </p>
+
+                        <form>
+                            <div class="input-group input-group-lg">
+                                <input type="text" id="search" placeholder="Ex: Nome da música, Artista, Albúm ..." class="form-control" list="searchresults" autocomplete="on">
+                                <div class="input-group-append">
+                                    <button type="button" class="btn btn-dark ">&#x1F50D</button>
+                                </div>
+                                <template id="resultstemplate">
+                                    <option>Alok</option>
+                                    <option>David Guetta</option>
+                                    <option>Steve Aoki</option>
+                                    <option>Martin Garrix</option>
+                                    <option>Hehab</option>
+                                    <option>Skrillex</option>
+                                    <option>Calvin Harris</option>
+                                    <option>Bob Sinclar</option>
+                                    <option>Blackbear</option>
+                                    <option>Ed Kane</option>
+                                    <option>Eiffel 65</option>
+                                    <option>Deadmau5</option>
+                                    <option>Fractal System</option>
+                                    
+                                </template>
+                                <datalist id="searchresults"></datalist>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!--/fim textos da seção -->
+                <div class="col-md-6 d-none d-md-block">
+                    <img src="imagens/dj.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/fim seção home -->
+
+    <section id="servicos" class="caixa">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row albuns">
+                        <div class="col-md-6 mb-4">
+                            <img src="imagens/img1.jpg" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="imagens/img2.jpg" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="row albuns">
+                        <div class="col-md-6 mb-4">
+                            <img src="imagens/img3.jpg" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="imagens/img4.jpg" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+
+                    <h2>O que o EletroMusic tem?</h2>
+
+                    <h3>Músicas</h3>
+                    <p>O EletroMusic tem milhões de músicas. Escute seus sons favoritos, descubra novas músicas e reúna seus favoritos em um só lugar.</p>
+
+                    <h3>Playlists</h3>
+                    <p>No EletroMusic você encontra uma playlist para cada momento. Todas feitas por fanáticos e especialistas da música.
+                    </p>
+
+                    <h3>Novos lançamentos</h3>
+                    <p>Escute os novos lançamentos de singles e álbuns da semana e veja o que está bombando no Top 50.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="recursos" class="caixa bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <br><br>
+                    <h2>Fácil</h2>
+                    <h3>Buscar</h3>
+                    <p>Já sabe o que quer escutar? É só procurar e apertar o play.
+                    </p>
+
+                    <h3>Navegar</h3>
+                    <p>Veja os novos lançamentos, o que está bombando nas paradas e as melhores playlists para o seu momento.
+                    </p>
+
+                    <h3>Descobrir</h3>
+                    <p>Curta músicas novas toda segunda-feira com uma playlist personalizada pra você. Ou relaxe e curta uma das rádios.
+                    </p>
+
+                </div>
+                <div class="col-md-8">
+                    <div class="row rotacionar">
+                        <div class="col-md-6">
+                            <img src="imagens/iphone1.png" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="imagens/iphone3.png" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <h1 style="color: #d527a4; margin-left: -50px;">Eletro<span style="color:white;">Music</span></h1>
+                </div>
+                <div class="col-md-2">
+                    <h4>company</h4>
+                    <ul class="navbar-nav">
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="">Novidades</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>comunidades</h4>
+                    <ul class="navbar-nav">
+                        <li><a href="">Artistas</a></li>
+                        <li><a href="">Desenvolvedores</a></li>
+                        <li><a href="">Marcas</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>links uteis</h4>
+                    <ul class="navbar-nav">
+                        <li><a href="">Ajuda</a></li>
+                        <li><a href="">Player da web</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul>
+                        <li>
+                            <a href=""><img src="imagens/facebook.png"></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imagens/twitter.png"></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imagens/instagram.png"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var search = document.querySelector('#search');
+        var results = document.querySelector('#searchresults');
+        var templateContent = document.querySelector('#resultstemplate').content;
+        search.addEventListener('keyup', function handler(event) {
+            while (results.children.length) results.removeChild(results.firstChild);
+            var inputVal = new RegExp(search.value.trim(), 'i');
+            var set = Array.prototype.reduce.call(templateContent.cloneNode(true).children, function searchFilter(frag, item, i) {
+                if (inputVal.test(item.textContent) && frag.children.length < 6) frag.appendChild(item);
+                return frag;
+            }, document.createDocumentFragment());
+            results.appendChild(set);
+        });
+    </script>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>

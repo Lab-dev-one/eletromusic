@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Estilizando formulários</title>
+    <meta charset="utf-8">
+    <!--Estilo customizado-->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+
+<body>
+
+    <div class="card-body" id="container">
+
+        <img src="imagens/perfil.png">
+
+        <form action="cadastro_usuario.php" method="POST">
+            <div>
+                <input class="nome" type="text" name="nome" id="email" placeholder="Digite seu nome" required>
+            </div>
+            <div id="sexo">
+                <input class="sexo" type="radio" value="Masculino" name="sexo"> Masculino
+                <input class="sexo" type="radio" value="Feminino" name="sexo"> Feminino
+
+            </div>
+            <div>
+                <input class="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+            </div>
+            <div>
+                <input class="senha" type="password" name="senha" placeholder="Digite sua senha" required>
+            </div>
+            <div>
+                <input type="text" name="data_nascimento" placeholder="Data de nascimento" required>
+            </div>
+            <div>
+                <input name="login" class="submit" type="submit" value="Logar">
+            </div>
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,500 @@
+/************************* Home **************/
+
+#home {
+    background: #010103;
+    color: white;
+}
+
+a.menu {
+    background: #010103;
+    color: white;
+}
+
+html,
+body,
+#home {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.capa {
+    text-align: center;
+}
+
+.btn-custom {
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-roxo {
+    background: #7c25f8;
+}
+
+.btn-roxo:hover {
+    background: #6207e3;
+    color: white;
+}
+
+.btn-branco {
+    border: 2px solid white;
+}
+
+.btn-branco:hover {
+    background-color: white;
+    color: black;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 5%;
+}
+
+body {
+    background: url(../imagens/capa.png), url(../imagens/ruido.png), linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav.navbar-transparente {
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 1);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #9bf0e1;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, .5);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.divisor {
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+
+/************ Spacing************/
+
+.mb-15 {
+    margin-bottom: 15px !important;
+}
+
+.mb-30 {
+    margin-bottom: 30px !important;
+}
+
+.ml-40 {
+    margin-left: 115px;
+}
+
+
+/****************** Eventos****************/
+
+.single-event-area {
+    position: relative;
+    z-index: 1;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.single-event-area img {
+    width: 100%;
+}
+
+.single-event-area .event-text {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    padding: 30px 15px;
+    background-color: #000;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.single-event-area .event-text h4 {
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.single-event-area .event-text .event-meta-data {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.single-event-area .event-text .event-meta-data a {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+    padding-right: 29px;
+}
+
+.single-event-area .event-text .event-meta-data a:first-child::after {
+    position: absolute;
+    content: '|';
+    top: 0;
+    right: 12px;
+    z-index: 1;
+}
+
+.single-event-area .event-text .event-meta-data a:last-child {
+    padding-right: 0;
+}
+
+.single-event-area .event-text .see-more-btn {
+    font-size: 11px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    border-bottom: 1px solid #fff;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
+}
+
+.single-event-area .event-text .see-more-btn:hover,
+.single-event-area .event-text .see-more-btn:focus {
+    font-weight: 400;
+}
+
+
+/*****************conteúdo*****************/
+
+.caixa {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#servicos {
+    background: white;
+}
+
+#servicos h2,
+h3 {
+    color: #7c25f8;
+}
+
+.albuns {
+    padding: 10px 0;
+}
+
+#recursos h2 {
+    color: white;
+}
+
+#recursos h3 {
+    color: #9bf0e1;
+}
+
+.albuns {
+    padding: 10px 0;
+}
+
+.rotacionar {
+    -ms-transform: rotate(30deg);
+    /* IE 9 */
+    -webkit-transform: rotate(30deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+
+/* Rodapé
+-----------------------------*/
+
+footer {
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+footer h4 {
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+    color: white;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0 5px;
+}
+
+
+/***************************************  Login   ******************************************/
+
+
+/*******************Estilizando formularios parte 2 ***************/
+
+body {
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    background: #010103;
+    /*#04040a;*/
+    /* #64114d;*/
+}
+
+#container {
+    width: 400px;
+    height: 430px;
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 105px;
+    text-align: center;
+}
+
+#container img {
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
+
+input.sexo {
+    margin: 15px;
+    margin-bottom: 25px;
+    height: 20px;
+    width: 15%;
+    background-color: #FFF;
+}
+
+input.email {
+    background-image: url(../imagens/icone-usuario.png);
+    margin-top: 40px;
+}
+
+input.senha {
+    background-image: url(../imagens/icone-cadeado.png);
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+
+/********** menu playlist ***************/
+
+input.menu-playlist {
+    height: 40px !important;
+    width: 20px !important;
+    font-size: 18px !important;
+    margin-bottom: 10px !important;
+    background-color: green !important;
+    padding-left: 40px !important;
+    border: none !important;
+    background-repeat: no-repeat !important;
+    background-position: 10px !important;
+    border-radius: 30px !important;
+    -webkit-border-radius: 30px !important;
+    -moz-border-radius: 30px !important;
+}
+
+
+/******************* estilização player música ****************/
+
+audio:hover,
+audio:focus,
+audio:active {
+    -webkit-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+audio {
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    -moz-box-shadow: 2px 2px 4px 0px #006773;
+    -webkit-box-shadow: 2px 2px 4px 0px #006773;
+    box-shadow: 2px 2px 4px 0px #006773;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    border-radius: 7px 7px 7px 7px;
+}
+
+
+/*******************estilização do player de música***************
+
+.music-player-area {
+    position: relative;
+    z-index: 1;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+@media only screen and (max-width: 767px) {
+    .music-player-area {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.single-music-player {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.single-music-player img {
+    -webkit-transition-duration: 1000ms;
+    transition-duration: 1000ms;
+}
+
+.single-music-player .music-info {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.74);
+    z-index: 10;
+    padding: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+    .single-music-player .music-info {
+        padding: 15px;
+    }
+}
+
+.single-music-player .music-info h5 {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.single-music-player .music-info p {
+    color: #ffffff;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.single-music-player .music-play-icon .audioplayer {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(242, 242, 242, 0.8), rgba(0, 0, 0, 0.8));
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.single-music-player .music-play-icon .audioplayer .audioplayer-playpause {
+    background-color: #ffffff;
+}
+
+.single-music-player .music-play-icon .audioplayer:not(.audioplayer-playing) .audioplayer-playpause a {
+    border-top: 10px solid transparent;
+    border-right: none;
+    border-bottom: 10px solid transparent;
+    border-left: 18px solid #000;
+}
+
+.single-music-player .music-play-icon .audioplayer .audioplayer-playing .audioplayer-playpause a::before,
+.single-music-player .music-play-icon .audioplayer .audioplayer-playing .audioplayer-playpause a::after {
+    background-color: #bd177a;
+}
+
+.single-music-player .music-play-icon .audioplayer .audioplayer-bar,
+.single-music-player .music-play-icon .audioplayer .audioplayer-time,
+.single-music-player .music-play-icon .audioplayer .audioplayer-volume {
+    display: none !important;
+}
+
+.single-music-player:hover .music-info,
+.single-music-player:focus .music-info {
+    background-color: #bd177a;
+}
+
+.single-music-player:hover img,
+.single-music-player:focus img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}*/
+
+input {
+    height: 40px;
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #FFF;
+    padding-left: 40px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+input.email {
+    background-image: url(../imagens/icone-usuario.png);
+}
+
+input.senha {
+    background-image: url(../imagens/icone-cadeado.png);
+}
+
+input.submit {
+    color: #FFF;
+    background-color: #f79300;
+    border: 2px solid #db7d00;
+    padding: 5px 20px;
+    height: 45px;
+    width: 90%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    background: -webkit-linear-gradient(to bottom, #faa600, #f68a00);
+    background: -moz-linear-gradient(to bottom, #faa600, #f68a00);
+    background: -o-linear-gradient(to bottom, #faa600, #f68a00);
+    background: linear-gradient(to bottom, #faa600, #f68a00);
+    cursor: pointer;
+}
